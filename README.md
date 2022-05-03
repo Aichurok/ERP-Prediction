@@ -8,22 +8,35 @@ Treasury-bill rates, from 1926 to 2005, which gives 86 observations. The data co
 variables and dependent variable Next Log Equity Risk Premium.
 The first group of explanatory variables give information that relates to stock:
 • Dividend Price Ratio is the difference between the log of dividend and the log of prices
+
 • Dividend Yield is the difference between the log of dividends and the log of lagged prices
+
 • Earnings Price Ratio is the difference between the log of earnings and the log of prices
+
 • Stock Variance is calculated as sum of squared daily returns on the S&P 500
+
 • Book-to-Market Ratio is the ratio of book value to market value
+
 • Net Equity Expansion is the ratio of 12-month moving sums of net issues by NYSE listed stocks
 divided by the total market capitalization of NYSE stocks
+
 • Percent Equity Issuing is the ratio of equity issuing activity as a fraction of total issuing
 The second group of explanatory variables provide information about interest-rate :
+
 • Treasury-bill Rates
+
 • The Default Return Spread is the difference between long-term corporate bond and long-term government
 bond returns
+
 • Default Yield Spread ) is the difference between BAA and AAA-rated corporate bond yields
+
 • Long Term Rate of Returns
+
 • The Term Spread is the difference between the long term yield on government bonds and the
 Treasury-bill
+
 • Inflation
+
 ***METHODOLOGY***
 
 The Equity Risk Premium (ERP) is the extra return that’s available to equity investors above the return
