@@ -1,6 +1,7 @@
 # ERP-Prediction
 
 ***DATA***
+
 To perform our research we choose SP 500 index and Treasury Bill as a risky and risk-free investment,
 respectively. We use SP 500 index returns from Center for Research in Security Press(CRSP) and the
 Treasury-bill rates, from 1926 to 2005, which gives 86 observations. The data contains 13 explanatory
@@ -24,6 +25,7 @@ bond returns
 Treasury-bill
 • Inflation
 ***METHODOLOGY***
+
 The Equity Risk Premium (ERP) is the extra return that’s available to equity investors above the return
 they could get by investing in a risk-free investment. The higher ERP, the more odds that investors
 would fill their portfolio with equities rather than with bonds. Hence, the accurate prediction of ERP is
@@ -40,6 +42,7 @@ results for AIC and BIC. Also we found that models’ prediction accuracy could 
 powers of fitted values and by splitting data into two dataset, the breakpoint is 1980.
 
 ***RESULTS***
+
 In conclusion, there are two models which can be used to predict equity risk premium, the full model and
 the model obtained by variable selection with Net Equity Expansion and Dividend Yield as explanatory
 variables. However, the conducted tests tell that both models have omitted variables as powers
